@@ -1,0 +1,53 @@
+# 忽略文件
+
+# 依赖
+node_modules/
+__pycache__/
+*.pyc
+vendor/
+
+# 构建输出
+dist/
+build/
+*.exe
+*.dll
+*.so
+
+# 环境配置
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 日志
+*.log
+logs/
+
+# 测试覆盖率
+coverage/
+.nyc_output/
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 数据库
+*.db
+*.sqlite
+
+# 密钥和证书
+*.pem
+*.key
+*.crt
+secrets/

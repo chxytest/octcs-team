@@ -1,0 +1,114 @@
+{
+  "project": {
+    "name": "OpenClaw Team Collaboration System",
+    "code": "OCTCS",
+    "version": "1.0.0",
+    "status": "initialized"
+  },
+  "team": {
+    "pm": {
+      "name": "瓦力",
+      "code": "PM-WALL-E",
+      "status": "active",
+      "responsibilities": [
+        "项目管理",
+        "团队协调",
+        "进度跟踪",
+        "风险管理"
+      ]
+    },
+    "po": {
+      "name": "Alex",
+      "code": "PO-ALEX",
+      "status": "standby",
+      "responsibilities": [
+        "需求分析",
+        "产品设计",
+        "用户故事",
+        "验收标准"
+      ]
+    },
+    "arch": {
+      "name": "Sage",
+      "code": "ARCH-SAGE",
+      "status": "standby",
+      "responsibilities": [
+        "架构设计",
+        "技术选型",
+        "技术规范",
+        "代码审查"
+      ]
+    },
+    "fe": {
+      "name": "Pixel",
+      "code": "FE-PIXEL",
+      "status": "standby",
+      "responsibilities": [
+        "UI实现",
+        "组件开发",
+        "状态管理",
+        "接口对接"
+      ]
+    },
+    "be": {
+      "name": "Core",
+      "code": "BE-CORE",
+      "status": "standby",
+      "responsibilities": [
+        "API开发",
+        "业务逻辑",
+        "数据库",
+        "性能优化"
+      ]
+    },
+    "qa": {
+      "name": "Guard",
+      "code": "QA-GUARD",
+      "status": "standby",
+      "responsibilities": [
+        "测试计划",
+        "用例设计",
+        "自动化测试",
+        "质量报告"
+      ]
+    },
+    "ops": {
+      "name": "Flow",
+      "code": "OPS-FLOW",
+      "status": "standby",
+      "responsibilities": [
+        "CI/CD",
+        "容器化",
+        "监控告警",
+        "运维支持"
+      ]
+    }
+  },
+  "workflow": {
+    "daily_standup": "09:00",
+    "weekly_review": "周五 16:00",
+    "sprint_duration": "2 weeks",
+    "reporting": {
+      "daily": true,
+      "weekly": true
+    }
+  },
+  "communication": {
+    "channels": {
+      "general": "项目总群",
+      "dev": "开发讨论",
+      "ops": "运维支持",
+      "urgent": "紧急问题"
+    },
+    "response_time": {
+      "normal": "30 minutes",
+      "urgent": "immediate"
+    }
+  },
+  "standards": {
+    "code_review": true,
+    "test_coverage": 80,
+    "documentation": true,
+    "ci_cd": true
+  }
+}

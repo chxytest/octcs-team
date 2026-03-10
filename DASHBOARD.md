@@ -1,7 +1,12 @@
 # 🚀 OpenClaw Team Collaboration System (OCTCS)
 
-**项目状态**: ✅ 已初始化  
+[![GitHub](https://img.shields.io/badge/GitHub-octcs--team-blue?logo=github)](https://github.com/chxytest/octcs-team)
+[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](./CHANGELOG.md)
+[![Team](https://img.shields.io/badge/team-7%20roles-orange.svg)](./.agents/)
+
+**项目状态**: ✅ 已初始化并推送至 GitHub  
 **项目经理**: 瓦力 (PM-WALL-E)  
+**GitHub 仓库**: https://github.com/chxytest/octcs-team  
 **最后更新**: 2026-03-10
 
 ---
@@ -177,6 +182,25 @@ OPS 准备环境 → 上线部署 → 监控验证
 
 ---
 
+## 🔗 GitHub 集成
+
+### 仓库信息
+- **仓库地址**: https://github.com/chxytest/octcs-team
+- **当前版本**: v1.0.0
+- **主分支**: main
+
+### 项目管理
+- [Issues](https://github.com/chxytest/octcs-team/issues) - 任务跟踪
+- [Labels](https://github.com/chxytest/octcs-team/labels) - 角色和类型标签
+- [Projects](https://github.com/chxytest/octcs-team/projects) - 项目看板
+
+### 当前 Issues
+1. 🎯 [项目启动 - 确定第一个开发任务](https://github.com/chxytest/octcs-team/issues/1)
+2. 📚 [完善团队文档 - 添加示例项目](https://github.com/chxytest/octcs-team/issues/2)
+3. 🔧 [团队配置优化 - 支持自定义角色](https://github.com/chxytest/octcs-team/issues/3)
+
+---
+
 ## 🎯 下一步行动
 
 项目已准备就绪，等待第一个开发任务！
@@ -185,6 +209,7 @@ OPS 准备环境 → 上线部署 → 监控验证
 1. 提出一个具体的软件项目需求
 2. 激活相应的团队成员开始工作
 3. 我会作为项目经理协调整个开发流程
+4. 所有工作将在 GitHub 上进行版本管理和跟踪
 
 **示例启动指令：**
 ```
@@ -196,4 +221,12 @@ OPS 准备环境 → 上线部署 → 监控验证
 - 看板视图
 
 请各角色准备技术方案和需求分析。
+```
+
+**提交工作成果：**
+```bash
+# 开发完成后，提交到 GitHub
+git add .
+git commit -m "feat: 实现用户登录功能"
+git push origin main
 ```

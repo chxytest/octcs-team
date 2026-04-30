@@ -7,7 +7,7 @@ echo "=============================================="
 echo ""
 
 # 检查工作空间
-WORKSPACE="/Users/hanbao/.openclaw/workspace/octcs-project"
+WORKSPACE="/Users/hanbao/.openclaw/workspace/projects/octcs-project"
 if [ ! -d "$WORKSPACE" ]; then
     echo "❌ 工作空间不存在: $WORKSPACE"
     exit 1
